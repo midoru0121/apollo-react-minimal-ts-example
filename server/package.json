@@ -1,0 +1,22 @@
+{
+  "name": "apollo-react-minimal-vanilla-example-server",
+  "private": true,
+  "dependencies": {
+    "apollo-datasource": "^0.3.1",
+    "apollo-server": "^2.4.2",
+    "graphql": "^14.1.1",
+    "sequelize": "^4.42.0",
+    "sqlite3": " ^4.0.6"
+  },
+  "scripts": {
+    "db:initialize": "node src/db/scripts/initialize.js",
+    "start": "tsc && node build/index.js localhost 4000",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/graphql": "14.0.1",
+    "@types/sequelize": "^4.27.37",
+    "@types/sqlite3": "^3.1.4",
+    "typescript": "^3.3.3333"
+  }
+}
