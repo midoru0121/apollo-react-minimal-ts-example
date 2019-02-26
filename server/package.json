@@ -9,7 +9,7 @@
     "sqlite3": " ^4.0.6"
   },
   "scripts": {
-    "db:initialize": "node src/db/scripts/initialize.js",
+    "db:initialize": "tsc && node build/db/scripts/initialize.js",
     "start": "tsc && node build/index.js localhost 4000",
     "build": "tsc"
   },

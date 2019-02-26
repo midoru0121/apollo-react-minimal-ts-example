@@ -1,4 +1,4 @@
-import { getDB } from "db";
+import { getDB } from "../";
 
 (async () => {
   const db = await getDB();
