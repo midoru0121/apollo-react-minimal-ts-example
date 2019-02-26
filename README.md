@@ -47,4 +47,4 @@ Then, browser will open http://localhost:3000 and data from apollo server will b
 
 ### Article
 
-<a href="" target="_blank">Blog (日本語)</a>
+<a href="https://programmagick.com/blog?slug=react_apollo" target="_blank">Blog (日本語)</a>
