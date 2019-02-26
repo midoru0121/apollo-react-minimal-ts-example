@@ -1,6 +1,6 @@
-# Apollo React Minimal Vanilla Example
+# Apollo React Minimal TypeScript Example
 
-This repository is for learning Apollo with vanilla JavaScript, including two project, "server" and "client" apps.
+This repository is for learning Apollo with TypeScript, including two project, "server" and "client" apps.
 
 ## Getting Started
 
