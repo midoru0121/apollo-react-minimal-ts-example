@@ -42,14 +42,7 @@ const UserList = () => {
 const UserInput = () => {
   const [state, setState] = useState("");
   const createUser = useMutation<{ createUser: Users }>(CREATE_USER, {
-    update: (proxy, { data }) => {
-      proxy.writeQuery({
-        query: GET_USERS,
-        data: {
-          users: data!.createUser
-        }
-      });
-    },
+    refetchQueries: [{ query: GET_USERS }],
     variables: { name: state }
   });
 
